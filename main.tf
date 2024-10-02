@@ -12,7 +12,7 @@ resource "aws_vpc" "my-vpc" {
   cidr_block = var.vpc_cidr
 
 
-  tags = {
+  tags = { 
     Name = "nawaz-vpc"
   }
 }
